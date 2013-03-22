@@ -3,6 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Email.Endpoint", "Email.Endpoint\Email.Endpoint.csproj", "{A74A6487-6891-4DF1-BED9-35B482303D0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Email.Messages", "Email.Messages\Email.Messages.csproj", "{858D6B0E-E7AB-4B28-B509-5EBF10437EF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BFE98FC1-91E2-4225-A536-F6792BE6D4DE}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +22,10 @@ Global
 		{A74A6487-6891-4DF1-BED9-35B482303D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A74A6487-6891-4DF1-BED9-35B482303D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A74A6487-6891-4DF1-BED9-35B482303D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{858D6B0E-E7AB-4B28-B509-5EBF10437EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{858D6B0E-E7AB-4B28-B509-5EBF10437EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{858D6B0E-E7AB-4B28-B509-5EBF10437EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{858D6B0E-E7AB-4B28-B509-5EBF10437EF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
