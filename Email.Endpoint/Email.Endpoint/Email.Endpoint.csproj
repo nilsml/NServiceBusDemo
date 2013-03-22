@@ -70,11 +70,18 @@
   <ItemGroup>
     <Compile Include="EndpointConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SendEmailHandler.cs" />
     <Compile Include="StructureMapBootstrapper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Email.Messages\Email.Messages.csproj">
+      <Project>{858D6B0E-E7AB-4B28-B509-5EBF10437EF5}</Project>
+      <Name>Email.Messages</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
