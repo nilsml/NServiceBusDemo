@@ -19,7 +19,6 @@ namespace WebApplication
         public void Connected()
         {
             Debug.WriteLine("Connected");
-            //Clients.All.emailReceived("To", "Subject", "Body");
         }
     }
 }

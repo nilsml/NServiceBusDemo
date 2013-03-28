@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication.csproj", "{9DF58F9E-B338-4658-9BE5-A0B4997D565D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{9DF58F9E-B338-4658-9BE5-A0B4997D565D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication.Endpoint", "..\WebApplication.Endpoint\WebApplication.Endpoint.csproj", "{532385AB-45B5-4EF7-B54A-5BDA4898E316}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication.Endpoint", "WebApplication.Endpoint\WebApplication.Endpoint.csproj", "{532385AB-45B5-4EF7-B54A-5BDA4898E316}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B9249211-F4A9-455A-8333-838020A1E447}"
 EndProject
