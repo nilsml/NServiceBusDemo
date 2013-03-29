@@ -14,3 +14,9 @@ h1 {
 #listOfEmails li {
   line-height: 30px;
 }
+#listOfEmails li .to {
+  font-style: italic;
+}
+#listOfEmails li .subject {
+  font-weight: 300;
+}

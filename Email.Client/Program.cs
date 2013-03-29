@@ -20,7 +20,7 @@ namespace Email.Client
                 if (keyInfo.Key == ConsoleKey.Q)
                     return;
 
-                bus.Send("Email.Endpoint", new SendEmail("some.person@domain.com", "Hello there!", string.Format("The time is now {0}", DateTime.Now.ToShortTimeString())));
+                bus.Send("Email.Endpoint", new SendEmail("some.person@domain.com", "Hello there!", string.Format("The time is now {0}!", DateTime.Now.ToShortTimeString())));
             } while (true);
 
         }

@@ -1,1 +1,1 @@
-﻿body{background-color:gray}h1{font-family:'Arial Black',Gadget,sans-serif;font-size:25px;color:#eee}#listOfEmails{list-style-image:url("../images/arrow.png");color:#eee;font-size:18px}#listOfEmails li{line-height:30px}
+﻿body{background-color:gray}h1{font-family:'Arial Black',Gadget,sans-serif;font-size:25px;color:#eee}#listOfEmails{list-style-image:url("../images/arrow.png");color:#eee;font-size:18px}#listOfEmails li{line-height:30px}#listOfEmails li .to{font-style:italic}#listOfEmails li .subject{font-weight:300}
