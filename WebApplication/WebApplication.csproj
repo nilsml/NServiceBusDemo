@@ -82,9 +82,17 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\arrow.png" />
+    <Content Include="less\application.css">
+      <DependentUpon>application.less</DependentUpon>
+    </Content>
+    <Content Include="less\application.less" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Global.asax" />
     <Content Include="index.html" />
+    <Content Include="less\application.min.css">
+      <DependentUpon>application.less</DependentUpon>
+    </Content>
     <Content Include="Scripts\application.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
