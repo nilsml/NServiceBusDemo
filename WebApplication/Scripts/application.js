@@ -7,7 +7,7 @@
             var encodedSubject = $('<div />').text(subject).html();
             var encodedBody = $('<div />').text(body).html();
 
-            $('#listOfEmails').append('<li>' + encodedTo + '&nbsp;' + encodedSubject + '&nbsp;' + encodedBody + '</li>');
+            $('#listOfEmails').append($('<li>' + encodedTo + '&nbsp;' + encodedSubject + '&nbsp;' + encodedBody + '</li>').hide().fadeIn(600));
         };
 
         $.connection.hub.start().done(function () {
