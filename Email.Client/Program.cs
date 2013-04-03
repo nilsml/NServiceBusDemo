@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Email.Messages.Commands;
 
 namespace Email.Client
@@ -16,7 +12,7 @@ namespace Email.Client
             do
             {
                 Console.WriteLine("Press a key to send a message.." + Environment.NewLine + "Press Q to end the program.");
-                ConsoleKeyInfo keyInfo = Console.ReadKey();
+                var keyInfo = Console.ReadKey();
                 if (keyInfo.Key == ConsoleKey.Q)
                     return;
 
