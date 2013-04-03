@@ -21,6 +21,7 @@ namespace Email.Endpoint
 
             _bus.Publish<EmailSentTo>(m =>
                                           {
+                                              m.Id = Guid.NewGuid();
                                               m.To = message.To;
                                               m.Subject = message.Subject;
                                               m.Body = message.Body;

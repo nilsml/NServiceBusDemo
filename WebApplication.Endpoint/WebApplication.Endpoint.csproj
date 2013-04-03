@@ -81,6 +81,9 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WebApplication.Messages">
+      <HintPath>..\WebApplication.Messages\bin\Debug\WebApplication.Messages.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EmailSentToHandler.cs" />

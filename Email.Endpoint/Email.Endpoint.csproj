@@ -66,8 +66,12 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="WebApplication.Messages">
+      <HintPath>..\WebApplication.Messages\bin\Debug\WebApplication.Messages.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EmailSaga.cs" />
     <Compile Include="EndpointConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SendEmailHandler.cs" />

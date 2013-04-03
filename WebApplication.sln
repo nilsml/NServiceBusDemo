@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication.Endpoint", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B9249211-F4A9-455A-8333-838020A1E447}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication.Messages", "WebApplication.Messages\WebApplication.Messages.csproj", "{7A4FA7F0-9E94-4238-875B-506878D0CBDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{532385AB-45B5-4EF7-B54A-5BDA4898E316}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{532385AB-45B5-4EF7-B54A-5BDA4898E316}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{532385AB-45B5-4EF7-B54A-5BDA4898E316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A4FA7F0-9E94-4238-875B-506878D0CBDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A4FA7F0-9E94-4238-875B-506878D0CBDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4FA7F0-9E94-4238-875B-506878D0CBDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A4FA7F0-9E94-4238-875B-506878D0CBDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
